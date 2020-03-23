@@ -23,6 +23,6 @@ xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11
 #sleep 5
 #xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11
 #sleep 240
-#killall -15 firefox-esr ; sleep 2
+#killall -w firefox-esr ; sleep 2
 
 exit 0
