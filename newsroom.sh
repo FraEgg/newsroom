@@ -9,9 +9,9 @@ cd ~ && rm -rf ~/newsroom/ ; git clone -q https://github.com/FraEgg/newsroom && 
 ./update.sh
 
 # 1. Firefox Browser im Fullwindow starten
-#nohup firefox 'index01.html' 2> /dev/null &
-#sleep 5
-#xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11
+nohup firefox 'index01.html' 2> /dev/null &
+sleep 5
+xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11
 
 ## Sample for open Browsers and Close on Rasbian Buster
 ## Google News

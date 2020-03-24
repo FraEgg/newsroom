@@ -7,16 +7,8 @@
 
 cd ~/newsroom/
 
-# Kill Browser
-killall -w firefox-esr
-sleep 2
-
 git --no-optional-locks reset -q --hard
 git checkout covid19
 git pull
-
-nohup firefox 'index01.html' 2> /dev/null &
-sleep 5
-xdotool search --sync --onlyvisible --class "Firefox" windowactivate key F11
 
 exit 0
